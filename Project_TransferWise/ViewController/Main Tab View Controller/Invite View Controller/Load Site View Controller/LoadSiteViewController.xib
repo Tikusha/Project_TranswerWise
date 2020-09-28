@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadSiteViewController" customModule="Project_TransferWise" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="zCd-2K-O42" id="M2X-aj-LkB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-8F-sbN">
+                    <rect key="frame" x="20" y="15" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="xmf-I7-q7t"/>
+                        <constraint firstAttribute="width" constant="20" id="zuV-XD-XJh"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="close" destination="-1" eventType="touchUpInside" id="WHS-n3-g17"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TransferWise Referral Terms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDe-B9-mTU">
+                    <rect key="frame" x="88.000000000000014" y="14.666666666666664" width="238.33333333333337" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <color key="textColor" red="0.14509803921568626" green="0.21176470588235294" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCd-2K-O42">
+                    <rect key="frame" x="0.0" y="50" width="414" height="686"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </webView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="zCd-2K-O42" firstAttribute="top" secondItem="4Tl-8F-sbN" secondAttribute="bottom" constant="15" id="0ld-JV-aAN"/>
+                <constraint firstItem="aDe-B9-mTU" firstAttribute="centerY" secondItem="4Tl-8F-sbN" secondAttribute="centerY" id="8rq-EK-iAs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="zCd-2K-O42" secondAttribute="bottom" id="ECG-SS-gaI"/>
+                <constraint firstItem="4Tl-8F-sbN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="KAN-E9-aJP"/>
+                <constraint firstItem="zCd-2K-O42" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Yxz-lU-frc"/>
+                <constraint firstItem="4Tl-8F-sbN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="pXQ-xP-dUe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zCd-2K-O42" secondAttribute="trailing" id="rGP-lH-dF3"/>
+                <constraint firstItem="aDe-B9-mTU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vRa-Zd-rjA"/>
+            </constraints>
+            <point key="canvasLocation" x="119" y="90"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="20" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

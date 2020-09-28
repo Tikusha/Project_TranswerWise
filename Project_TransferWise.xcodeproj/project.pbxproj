@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC08190F251A3DB30034CE52 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08190D251A3DB30034CE52 /* BusinessViewController.swift */; };
+		AC081910251A3DB30034CE52 /* BusinessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC08190E251A3DB30034CE52 /* BusinessViewController.xib */; };
+		AC140DD424D72AD300EC0E86 /* AccountSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC140DD324D72AD300EC0E86 /* AccountSettingView.swift */; };
+		AC140DD624D72AE300EC0E86 /* AccountSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC140DD524D72AE300EC0E86 /* AccountSettingView.xib */; };
+		AC1B7F0024B9C19800826349 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1B7EFE24B9C19800826349 /* LogInViewController.swift */; };
+		AC1B7F0124B9C19800826349 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1B7EFF24B9C19800826349 /* LogInViewController.xib */; };
+		AC2F77C724D5B7C200119F48 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F77C524D5B7C200119F48 /* AccountViewController.swift */; };
+		AC2F77C824D5B7C200119F48 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2F77C624D5B7C200119F48 /* AccountViewController.xib */; };
+		AC2F77CB24D5B87E00119F48 /* RecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F77C924D5B87E00119F48 /* RecipientViewController.swift */; };
+		AC2F77CC24D5B87E00119F48 /* RecipientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2F77CA24D5B87E00119F48 /* RecipientViewController.xib */; };
+		AC355B11251CAB1F00384D35 /* LoadSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC355B0F251CAB1F00384D35 /* LoadSiteViewController.swift */; };
+		AC355B12251CAB1F00384D35 /* LoadSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC355B10251CAB1F00384D35 /* LoadSiteViewController.xib */; };
+		AC355B19251CB21600384D35 /* BusinessAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC355B17251CB21600384D35 /* BusinessAccountViewController.swift */; };
+		AC355B1A251CB21600384D35 /* BusinessAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC355B18251CB21600384D35 /* BusinessAccountViewController.xib */; };
+		AC41575924CDC77F001B06B6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41575824CDC77F001B06B6 /* UIViewExtension.swift */; };
+		AC41575B24CDC94B001B06B6 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41575A24CDC94B001B06B6 /* UIButtonExtension.swift */; };
+		AC41575E24CDD061001B06B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41575D24CDD061001B06B6 /* Constants.swift */; };
+		AC41576424CDE681001B06B6 /* SendScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41576224CDE681001B06B6 /* SendScreenViewController.swift */; };
+		AC41576524CDE681001B06B6 /* SendScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC41576324CDE681001B06B6 /* SendScreenViewController.xib */; };
+		AC41578924D340A2001B06B6 /* SetUpBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41578724D340A2001B06B6 /* SetUpBalanceViewController.swift */; };
+		AC41578A24D340A2001B06B6 /* SetUpBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC41578824D340A2001B06B6 /* SetUpBalanceViewController.xib */; };
+		AC60661724D5C979009BFF4D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60661624D5C979009BFF4D /* UIColorExtension.swift */; };
+		AC60661A24D6E448009BFF4D /* UIVIewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60661924D6E448009BFF4D /* UIVIewControllerExtension.swift */; };
+		AC608C7324EF9BDE00BD51E9 /* PersonalAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC608C7224EF9BDE00BD51E9 /* PersonalAccountView.xib */; };
+		AC608C7524EF9C0400BD51E9 /* PersonalAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC608C7424EF9C0400BD51E9 /* PersonalAccountView.swift */; };
+		AC608C9E24F24D8F00BD51E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC608C9D24F24D8F00BD51E9 /* GoogleService-Info.plist */; };
+		AC608CA124F2561D00BD51E9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC608C9F24F2561D00BD51E9 /* RegisterViewController.swift */; };
+		AC608CA224F2561D00BD51E9 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC608CA024F2561D00BD51E9 /* RegisterViewController.xib */; };
+		AC608CA424F39C6400BD51E9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC608CA324F39C6400BD51E9 /* CustomTextField.swift */; };
+		AC6A937924C4C2F0005347C7 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A937724C4C2F0005347C7 /* MainTabViewController.swift */; };
+		AC6A937A24C4C2F0005347C7 /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6A937824C4C2F0005347C7 /* MainTabViewController.xib */; };
+		AC6A937F24C4C5DF005347C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A937D24C4C5DF005347C7 /* HomeViewController.swift */; };
+		AC6A938024C4C5DF005347C7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6A937E24C4C5DF005347C7 /* HomeViewController.xib */; };
+		AC6A938324C4DBCE005347C7 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A938124C4DBCE005347C7 /* InviteViewController.swift */; };
+		AC6A938424C4DBCE005347C7 /* InviteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC6A938224C4DBCE005347C7 /* InviteViewController.xib */; };
+		AC735CD224E5A69A00BBCF04 /* AddRecipientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC735CD024E5A69A00BBCF04 /* AddRecipientViewController.swift */; };
+		AC735CD324E5A69A00BBCF04 /* AddRecipientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC735CD124E5A69A00BBCF04 /* AddRecipientViewController.xib */; };
+		AC7A956B24F6C1A9002A4E75 /* TransferWiseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A956A24F6C1A9002A4E75 /* TransferWiseImage.swift */; };
+		AC9C1B3E251369F500E6AF9D /* AboutUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C1B3C251369F500E6AF9D /* AboutUserViewController.swift */; };
+		AC9C1B3F251369F500E6AF9D /* AboutUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9C1B3D251369F500E6AF9D /* AboutUserViewController.xib */; };
+		AC9C1B43251396BC00E6AF9D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C1B41251396BC00E6AF9D /* AlertViewController.swift */; };
+		AC9C1B44251396BC00E6AF9D /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9C1B42251396BC00E6AF9D /* AlertViewController.xib */; };
+		AC9DE3B524B84EBB00E6A8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DE3B424B84EBB00E6A8A4 /* AppDelegate.swift */; };
+		AC9DE3B924B84EBB00E6A8A4 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DE3B824B84EBB00E6A8A4 /* MainScreenViewController.swift */; };
+		AC9DE3BE24B84EBD00E6A8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3BD24B84EBD00E6A8A4 /* Assets.xcassets */; };
+		AC9DE3C124B84EBD00E6A8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3BF24B84EBD00E6A8A4 /* LaunchScreen.storyboard */; };
+		AC9DE3C924B850B200E6A8A4 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3C824B850B200E6A8A4 /* MainScreen.xib */; };
+		AC9DE3D624B9AF1500E6A8A4 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DE3D424B9AF1500E6A8A4 /* TitleCell.swift */; };
+		AC9DE3D724B9AF1500E6A8A4 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3D524B9AF1500E6A8A4 /* TitleCell.xib */; };
+		ACB1D5F12504C07A003C0AEF /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1D5F02504C07A003C0AEF /* CountryModel.swift */; };
+		ACBA327424E6F41900D7CD7C /* InviteFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA327224E6F41900D7CD7C /* InviteFriendViewController.swift */; };
+		ACBA327524E6F41900D7CD7C /* InviteFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBA327324E6F41900D7CD7C /* InviteFriendViewController.xib */; };
+		ACBA327924E9646A00D7CD7C /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA327724E9646A00D7CD7C /* CountryViewController.swift */; };
+		ACBA327A24E9646A00D7CD7C /* CountryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBA327824E9646A00D7CD7C /* CountryViewController.xib */; };
+		ACBA327F24E99DD800D7CD7C /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA327D24E99DD800D7CD7C /* CountryCell.swift */; };
+		ACBA328024E99DD800D7CD7C /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBA327E24E99DD800D7CD7C /* CountryCell.xib */; };
+		ACBA328524EEBA7000D7CD7C /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA328424EEBA7000D7CD7C /* CurrencyRate.swift */; };
+		ACBA328724EEBACE00D7CD7C /* FetchCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA328624EEBACE00D7CD7C /* FetchCurrency.swift */; };
+		ACBAAC59251E497F001813B1 /* MyselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAAC57251E497F001813B1 /* MyselfViewController.swift */; };
+		ACBAAC5A251E497F001813B1 /* MyselfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBAAC58251E497F001813B1 /* MyselfViewController.xib */; };
+		ACDA488F24BA19DB00A8773E /* MoneyTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA488E24BA19DB00A8773E /* MoneyTexts.swift */; };
+		ACF7FE4924D76063007B9A0E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7FE4724D76063007B9A0E /* SettingsViewController.swift */; };
+		ACF7FE4A24D76063007B9A0E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF7FE4824D76063007B9A0E /* SettingsViewController.xib */; };
+		ACF7FE4D24D76071007B9A0E /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7FE4B24D76071007B9A0E /* HelpViewController.swift */; };
+		ACF7FE4E24D76071007B9A0E /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF7FE4C24D76071007B9A0E /* HelpViewController.xib */; };
+		B83861222EE9AFDED0800852 /* Pods_Project_TransferWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECC5762BE8C8E6E81B7709A /* Pods_Project_TransferWise.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2ECC5762BE8C8E6E81B7709A /* Pods_Project_TransferWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_TransferWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6584C5C161D2649DC0C38 /* Pods-Project_TransferWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_TransferWise.debug.xcconfig"; path = "Target Support Files/Pods-Project_TransferWise/Pods-Project_TransferWise.debug.xcconfig"; sourceTree = "<group>"; };
+		711324846D293682CA8BBEFC /* Pods-Project_TransferWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_TransferWise.release.xcconfig"; path = "Target Support Files/Pods-Project_TransferWise/Pods-Project_TransferWise.release.xcconfig"; sourceTree = "<group>"; };
+		AC08190D251A3DB30034CE52 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
+		AC08190E251A3DB30034CE52 /* BusinessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessViewController.xib; sourceTree = "<group>"; };
+		AC140DD324D72AD300EC0E86 /* AccountSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingView.swift; sourceTree = "<group>"; };
+		AC140DD524D72AE300EC0E86 /* AccountSettingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSettingView.xib; sourceTree = "<group>"; };
+		AC1B7EFE24B9C19800826349 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AC1B7EFF24B9C19800826349 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		AC2F77C524D5B7C200119F48 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AC2F77C624D5B7C200119F48 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		AC2F77C924D5B87E00119F48 /* RecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientViewController.swift; sourceTree = "<group>"; };
+		AC2F77CA24D5B87E00119F48 /* RecipientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipientViewController.xib; sourceTree = "<group>"; };
+		AC355B0F251CAB1F00384D35 /* LoadSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadSiteViewController.swift; sourceTree = "<group>"; };
+		AC355B10251CAB1F00384D35 /* LoadSiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadSiteViewController.xib; sourceTree = "<group>"; };
+		AC355B17251CB21600384D35 /* BusinessAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAccountViewController.swift; sourceTree = "<group>"; };
+		AC355B18251CB21600384D35 /* BusinessAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessAccountViewController.xib; sourceTree = "<group>"; };
+		AC41575824CDC77F001B06B6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AC41575A24CDC94B001B06B6 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		AC41575D24CDD061001B06B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC41576224CDE681001B06B6 /* SendScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendScreenViewController.swift; sourceTree = "<group>"; };
+		AC41576324CDE681001B06B6 /* SendScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendScreenViewController.xib; sourceTree = "<group>"; };
+		AC41578724D340A2001B06B6 /* SetUpBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpBalanceViewController.swift; sourceTree = "<group>"; };
+		AC41578824D340A2001B06B6 /* SetUpBalanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetUpBalanceViewController.xib; sourceTree = "<group>"; };
+		AC60661624D5C979009BFF4D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AC60661924D6E448009BFF4D /* UIVIewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerExtension.swift; sourceTree = "<group>"; };
+		AC608C7224EF9BDE00BD51E9 /* PersonalAccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalAccountView.xib; sourceTree = "<group>"; };
+		AC608C7424EF9C0400BD51E9 /* PersonalAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAccountView.swift; sourceTree = "<group>"; };
+		AC608C9D24F24D8F00BD51E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC608C9F24F2561D00BD51E9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AC608CA024F2561D00BD51E9 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		AC608CA324F39C6400BD51E9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AC6A937724C4C2F0005347C7 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		AC6A937824C4C2F0005347C7 /* MainTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		AC6A937D24C4C5DF005347C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC6A937E24C4C5DF005347C7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AC6A938124C4DBCE005347C7 /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		AC6A938224C4DBCE005347C7 /* InviteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InviteViewController.xib; sourceTree = "<group>"; };
+		AC735CD024E5A69A00BBCF04 /* AddRecipientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipientViewController.swift; sourceTree = "<group>"; };
+		AC735CD124E5A69A00BBCF04 /* AddRecipientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRecipientViewController.xib; sourceTree = "<group>"; };
+		AC7A956A24F6C1A9002A4E75 /* TransferWiseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferWiseImage.swift; sourceTree = "<group>"; };
+		AC9C1B3C251369F500E6AF9D /* AboutUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserViewController.swift; sourceTree = "<group>"; };
+		AC9C1B3D251369F500E6AF9D /* AboutUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUserViewController.xib; sourceTree = "<group>"; };
+		AC9C1B41251396BC00E6AF9D /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		AC9C1B42251396BC00E6AF9D /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		AC9DE3B124B84EBB00E6A8A4 /* Project_TransferWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_TransferWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9DE3B424B84EBB00E6A8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9DE3B824B84EBB00E6A8A4 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		AC9DE3BD24B84EBD00E6A8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9DE3C024B84EBD00E6A8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9DE3C224B84EBD00E6A8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9DE3C824B850B200E6A8A4 /* MainScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
+		AC9DE3D424B9AF1500E6A8A4 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		AC9DE3D524B9AF1500E6A8A4 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		ACB1D5F02504C07A003C0AEF /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		ACBA327224E6F41900D7CD7C /* InviteFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendViewController.swift; sourceTree = "<group>"; };
+		ACBA327324E6F41900D7CD7C /* InviteFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InviteFriendViewController.xib; sourceTree = "<group>"; };
+		ACBA327724E9646A00D7CD7C /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		ACBA327824E9646A00D7CD7C /* CountryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryViewController.xib; sourceTree = "<group>"; };
+		ACBA327D24E99DD800D7CD7C /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		ACBA327E24E99DD800D7CD7C /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		ACBA328424EEBA7000D7CD7C /* CurrencyRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		ACBA328624EEBACE00D7CD7C /* FetchCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCurrency.swift; sourceTree = "<group>"; };
+		ACBAAC57251E497F001813B1 /* MyselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyselfViewController.swift; sourceTree = "<group>"; };
+		ACBAAC58251E497F001813B1 /* MyselfViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyselfViewController.xib; sourceTree = "<group>"; };
+		ACDA488E24BA19DB00A8773E /* MoneyTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTexts.swift; sourceTree = "<group>"; };
+		ACF7FE4724D76063007B9A0E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ACF7FE4824D76063007B9A0E /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		ACF7FE4B24D76071007B9A0E /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		ACF7FE4C24D76071007B9A0E /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9DE3AE24B84EBB00E6A8A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83861222EE9AFDED0800852 /* Pods_Project_TransferWise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C86140BC2B2912D1AC78C66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6584C5C161D2649DC0C38 /* Pods-Project_TransferWise.debug.xcconfig */,
+				711324846D293682CA8BBEFC /* Pods-Project_TransferWise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		17B81646638BA0B5ED8BCF18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECC5762BE8C8E6E81B7709A /* Pods_Project_TransferWise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC08190C251A3D710034CE52 /* Business View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC08190E251A3DB30034CE52 /* BusinessViewController.xib */,
+				AC08190D251A3DB30034CE52 /* BusinessViewController.swift */,
+			);
+			path = "Business View Controller";
+			sourceTree = "<group>";
+		};
+		AC140DD224D72AAE00EC0E86 /* Settings Slide View */ = {
+			isa = PBXGroup;
+			children = (
+				AC140DD524D72AE300EC0E86 /* AccountSettingView.xib */,
+				AC140DD324D72AD300EC0E86 /* AccountSettingView.swift */,
+				ACF7FE4624D7603D007B9A0E /* Help View Controller */,
+				ACF7FE4424D75F63007B9A0E /* Setting View Controller */,
+			);
+			path = "Settings Slide View";
+			sourceTree = "<group>";
+		};
+		AC1B7EFC24B9C02A00826349 /* Log In View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC1B7EFF24B9C19800826349 /* LogInViewController.xib */,
+				AC1B7EFE24B9C19800826349 /* LogInViewController.swift */,
+				AC608CA324F39C6400BD51E9 /* CustomTextField.swift */,
+			);
+			path = "Log In View Controller";
+			sourceTree = "<group>";
+		};
+		AC1B7EFD24B9C03400826349 /* Register View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC608CA024F2561D00BD51E9 /* RegisterViewController.xib */,
+				AC608C9F24F2561D00BD51E9 /* RegisterViewController.swift */,
+			);
+			path = "Register View Controller";
+			sourceTree = "<group>";
+		};
+		AC355B0E251CAAEF00384D35 /* Load Site View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC355B10251CAB1F00384D35 /* LoadSiteViewController.xib */,
+				AC355B0F251CAB1F00384D35 /* LoadSiteViewController.swift */,
+			);
+			path = "Load Site View Controller";
+			sourceTree = "<group>";
+		};
+		AC355B16251CB1F700384D35 /* Business Account View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC355B18251CB21600384D35 /* BusinessAccountViewController.xib */,
+				AC355B17251CB21600384D35 /* BusinessAccountViewController.swift */,
+			);
+			path = "Business Account View Controller";
+			sourceTree = "<group>";
+		};
+		AC41575724CDC766001B06B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC41575824CDC77F001B06B6 /* UIViewExtension.swift */,
+				AC41575A24CDC94B001B06B6 /* UIButtonExtension.swift */,
+				AC60661624D5C979009BFF4D /* UIColorExtension.swift */,
+				AC60661924D6E448009BFF4D /* UIVIewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC41575C24CDD04E001B06B6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AC41575D24CDD061001B06B6 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AC41575F24CDE5C0001B06B6 /* Account View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC2F77C624D5B7C200119F48 /* AccountViewController.xib */,
+				AC2F77C524D5B7C200119F48 /* AccountViewController.swift */,
+				AC608C7124EF9B1900BD51E9 /* Personal Account Slide View */,
+				AC140DD224D72AAE00EC0E86 /* Settings Slide View */,
+				AC9C1B3B251369CC00E6AF9D /* About User View Controller */,
+			);
+			path = "Account View Controller";
+			sourceTree = "<group>";
+		};
+		AC41576024CDE5F5001B06B6 /* Recipient View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC2F77CA24D5B87E00119F48 /* RecipientViewController.xib */,
+				AC2F77C924D5B87E00119F48 /* RecipientViewController.swift */,
+				AC735CCF24E5A63900BBCF04 /* Add Recipient Screan View Controller */,
+				AC08190C251A3D710034CE52 /* Business View Controller */,
+			);
+			path = "Recipient View Controller";
+			sourceTree = "<group>";
+		};
+		AC41576124CDE654001B06B6 /* Send View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC41576324CDE681001B06B6 /* SendScreenViewController.xib */,
+				AC41576224CDE681001B06B6 /* SendScreenViewController.swift */,
+				AC608C7624F13F4700BD51E9 /* Network */,
+				ACBAAC56251E494A001813B1 /* Myself View Controller */,
+				ACBA327624E9643F00D7CD7C /* Country View Controller */,
+			);
+			path = "Send View Controller";
+			sourceTree = "<group>";
+		};
+		AC41578624D3403A001B06B6 /* SetUpBalance View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC41578824D340A2001B06B6 /* SetUpBalanceViewController.xib */,
+				AC41578724D340A2001B06B6 /* SetUpBalanceViewController.swift */,
+			);
+			path = "SetUpBalance View Controller";
+			sourceTree = "<group>";
+		};
+		AC608C7124EF9B1900BD51E9 /* Personal Account Slide View */ = {
+			isa = PBXGroup;
+			children = (
+				AC608C7224EF9BDE00BD51E9 /* PersonalAccountView.xib */,
+				AC608C7424EF9C0400BD51E9 /* PersonalAccountView.swift */,
+				AC355B16251CB1F700384D35 /* Business Account View Controller */,
+			);
+			path = "Personal Account Slide View";
+			sourceTree = "<group>";
+		};
+		AC608C7624F13F4700BD51E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA328624EEBACE00D7CD7C /* FetchCurrency.swift */,
+				ACBA328424EEBA7000D7CD7C /* CurrencyRate.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC6A937624C4C17C005347C7 /* Main Tab View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A937824C4C2F0005347C7 /* MainTabViewController.xib */,
+				AC6A937724C4C2F0005347C7 /* MainTabViewController.swift */,
+				ACD423F124D4BB9D00AE4717 /* Home View Controller */,
+				AC41575F24CDE5C0001B06B6 /* Account View Controller */,
+				AC41576124CDE654001B06B6 /* Send View Controller */,
+				AC41576024CDE5F5001B06B6 /* Recipient View Controller */,
+				AC6A937C24C4C586005347C7 /* Invite View Controller */,
+			);
+			path = "Main Tab View Controller";
+			sourceTree = "<group>";
+		};
+		AC6A937C24C4C586005347C7 /* Invite View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A938224C4DBCE005347C7 /* InviteViewController.xib */,
+				AC6A938124C4DBCE005347C7 /* InviteViewController.swift */,
+				ACBA327124E6F3EB00D7CD7C /* Invite friends View Controller */,
+				AC355B0E251CAAEF00384D35 /* Load Site View Controller */,
+			);
+			path = "Invite View Controller";
+			sourceTree = "<group>";
+		};
+		AC735CCF24E5A63900BBCF04 /* Add Recipient Screan View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC735CD124E5A69A00BBCF04 /* AddRecipientViewController.xib */,
+				AC735CD024E5A69A00BBCF04 /* AddRecipientViewController.swift */,
+			);
+			path = "Add Recipient Screan View Controller";
+			sourceTree = "<group>";
+		};
+		AC9C1B3B251369CC00E6AF9D /* About User View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C1B3D251369F500E6AF9D /* AboutUserViewController.xib */,
+				AC9C1B3C251369F500E6AF9D /* AboutUserViewController.swift */,
+				AC9C1B402513966E00E6AF9D /* Alert Screen */,
+			);
+			path = "About User View Controller";
+			sourceTree = "<group>";
+		};
+		AC9C1B402513966E00E6AF9D /* Alert Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AC9C1B42251396BC00E6AF9D /* AlertViewController.xib */,
+				AC9C1B41251396BC00E6AF9D /* AlertViewController.swift */,
+			);
+			path = "Alert Screen";
+			sourceTree = "<group>";
+		};
+		AC9DE3A824B84EBB00E6A8A4 = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3B324B84EBB00E6A8A4 /* Project_TransferWise */,
+				AC9DE3BF24B84EBD00E6A8A4 /* LaunchScreen.storyboard */,
+				AC9DE3B224B84EBB00E6A8A4 /* Products */,
+				0C86140BC2B2912D1AC78C66 /* Pods */,
+				17B81646638BA0B5ED8BCF18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9DE3B224B84EBB00E6A8A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3B124B84EBB00E6A8A4 /* Project_TransferWise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9DE3B324B84EBB00E6A8A4 /* Project_TransferWise */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3B424B84EBB00E6A8A4 /* AppDelegate.swift */,
+				AC9DE3CD24B8542A00E6A8A4 /* Core */,
+				AC9DE3CC24B8542100E6A8A4 /* Model */,
+				AC9DE3CB24B8532800E6A8A4 /* ViewController */,
+				AC9DE3CF24B8544200E6A8A4 /* Resources */,
+				AC9DE3C224B84EBD00E6A8A4 /* Info.plist */,
+				AC608C9D24F24D8F00BD51E9 /* GoogleService-Info.plist */,
+			);
+			path = Project_TransferWise;
+			sourceTree = "<group>";
+		};
+		AC9DE3CA24B852B800E6A8A4 /* Main Screen View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3C824B850B200E6A8A4 /* MainScreen.xib */,
+				AC9DE3B824B84EBB00E6A8A4 /* MainScreenViewController.swift */,
+				AC9DE3D324B9AEE800E6A8A4 /* Table Cells */,
+				AC1B7EFC24B9C02A00826349 /* Log In View Controller */,
+				AC1B7EFD24B9C03400826349 /* Register View Controller */,
+			);
+			path = "Main Screen View Controller";
+			sourceTree = "<group>";
+		};
+		AC9DE3CB24B8532800E6A8A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3CA24B852B800E6A8A4 /* Main Screen View Controller */,
+				AC6A937624C4C17C005347C7 /* Main Tab View Controller */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AC9DE3CC24B8542100E6A8A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA488E24BA19DB00A8773E /* MoneyTexts.swift */,
+				AC7A956A24F6C1A9002A4E75 /* TransferWiseImage.swift */,
+				ACB1D5F02504C07A003C0AEF /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC9DE3CD24B8542A00E6A8A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC41575C24CDD04E001B06B6 /* Constants */,
+				AC41575724CDC766001B06B6 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AC9DE3CF24B8544200E6A8A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3D224B8549C00E6A8A4 /* Media */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC9DE3D224B8549C00E6A8A4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3BD24B84EBD00E6A8A4 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		AC9DE3D324B9AEE800E6A8A4 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC9DE3D524B9AF1500E6A8A4 /* TitleCell.xib */,
+				AC9DE3D424B9AF1500E6A8A4 /* TitleCell.swift */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		ACBA327124E6F3EB00D7CD7C /* Invite friends View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA327324E6F41900D7CD7C /* InviteFriendViewController.xib */,
+				ACBA327224E6F41900D7CD7C /* InviteFriendViewController.swift */,
+			);
+			path = "Invite friends View Controller";
+			sourceTree = "<group>";
+		};
+		ACBA327624E9643F00D7CD7C /* Country View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA327824E9646A00D7CD7C /* CountryViewController.xib */,
+				ACBA327724E9646A00D7CD7C /* CountryViewController.swift */,
+				ACBA328124E99DE500D7CD7C /* Country Cell */,
+			);
+			path = "Country View Controller";
+			sourceTree = "<group>";
+		};
+		ACBA328124E99DE500D7CD7C /* Country Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ACBA327E24E99DD800D7CD7C /* CountryCell.xib */,
+				ACBA327D24E99DD800D7CD7C /* CountryCell.swift */,
+			);
+			path = "Country Cell";
+			sourceTree = "<group>";
+		};
+		ACBAAC56251E494A001813B1 /* Myself View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAAC58251E497F001813B1 /* MyselfViewController.xib */,
+				ACBAAC57251E497F001813B1 /* MyselfViewController.swift */,
+			);
+			path = "Myself View Controller";
+			sourceTree = "<group>";
+		};
+		ACD423F124D4BB9D00AE4717 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A937E24C4C5DF005347C7 /* HomeViewController.xib */,
+				AC6A937D24C4C5DF005347C7 /* HomeViewController.swift */,
+				AC41578624D3403A001B06B6 /* SetUpBalance View Controller */,
+			);
+			path = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		ACF7FE4424D75F63007B9A0E /* Setting View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACF7FE4824D76063007B9A0E /* SettingsViewController.xib */,
+				ACF7FE4724D76063007B9A0E /* SettingsViewController.swift */,
+			);
+			path = "Setting View Controller";
+			sourceTree = "<group>";
+		};
+		ACF7FE4624D7603D007B9A0E /* Help View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACF7FE4C24D76071007B9A0E /* HelpViewController.xib */,
+				ACF7FE4B24D76071007B9A0E /* HelpViewController.swift */,
+			);
+			path = "Help View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9DE3B024B84EBB00E6A8A4 /* Project_TransferWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9DE3C524B84EBD00E6A8A4 /* Build configuration list for PBXNativeTarget "Project_TransferWise" */;
+			buildPhases = (
+				3D4797628A524F4154567F2F /* [CP] Check Pods Manifest.lock */,
+				AC9DE3AD24B84EBB00E6A8A4 /* Sources */,
+				AC9DE3AE24B84EBB00E6A8A4 /* Frameworks */,
+				AC9DE3AF24B84EBB00E6A8A4 /* Resources */,
+				61A8FE8CB1BB9BB96F55B7FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project_TransferWise;
+			productName = Project_TransferWise;
+			productReference = AC9DE3B124B84EBB00E6A8A4 /* Project_TransferWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9DE3A924B84EBB00E6A8A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Tiko;
+				TargetAttributes = {
+					AC9DE3B024B84EBB00E6A8A4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AC9DE3AC24B84EBB00E6A8A4 /* Build configuration list for PBXProject "Project_TransferWise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9DE3A824B84EBB00E6A8A4;
+			productRefGroup = AC9DE3B224B84EBB00E6A8A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9DE3B024B84EBB00E6A8A4 /* Project_TransferWise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9DE3AF24B84EBB00E6A8A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBA328024E99DD800D7CD7C /* CountryCell.xib in Resources */,
+				AC9DE3D724B9AF1500E6A8A4 /* TitleCell.xib in Resources */,
+				ACBA327524E6F41900D7CD7C /* InviteFriendViewController.xib in Resources */,
+				AC6A938424C4DBCE005347C7 /* InviteViewController.xib in Resources */,
+				AC6A937A24C4C2F0005347C7 /* MainTabViewController.xib in Resources */,
+				AC9C1B3F251369F500E6AF9D /* AboutUserViewController.xib in Resources */,
+				AC355B1A251CB21600384D35 /* BusinessAccountViewController.xib in Resources */,
+				AC9DE3C124B84EBD00E6A8A4 /* LaunchScreen.storyboard in Resources */,
+				ACF7FE4A24D76063007B9A0E /* SettingsViewController.xib in Resources */,
+				AC9DE3C924B850B200E6A8A4 /* MainScreen.xib in Resources */,
+				AC140DD624D72AE300EC0E86 /* AccountSettingView.xib in Resources */,
+				AC2F77CC24D5B87E00119F48 /* RecipientViewController.xib in Resources */,
+				AC9DE3BE24B84EBD00E6A8A4 /* Assets.xcassets in Resources */,
+				AC608CA224F2561D00BD51E9 /* RegisterViewController.xib in Resources */,
+				AC355B12251CAB1F00384D35 /* LoadSiteViewController.xib in Resources */,
+				AC608C7324EF9BDE00BD51E9 /* PersonalAccountView.xib in Resources */,
+				ACBAAC5A251E497F001813B1 /* MyselfViewController.xib in Resources */,
+				AC1B7F0124B9C19800826349 /* LogInViewController.xib in Resources */,
+				AC41576524CDE681001B06B6 /* SendScreenViewController.xib in Resources */,
+				AC735CD324E5A69A00BBCF04 /* AddRecipientViewController.xib in Resources */,
+				AC41578A24D340A2001B06B6 /* SetUpBalanceViewController.xib in Resources */,
+				AC081910251A3DB30034CE52 /* BusinessViewController.xib in Resources */,
+				AC2F77C824D5B7C200119F48 /* AccountViewController.xib in Resources */,
+				ACBA327A24E9646A00D7CD7C /* CountryViewController.xib in Resources */,
+				AC608C9E24F24D8F00BD51E9 /* GoogleService-Info.plist in Resources */,
+				AC6A938024C4C5DF005347C7 /* HomeViewController.xib in Resources */,
+				ACF7FE4E24D76071007B9A0E /* HelpViewController.xib in Resources */,
+				AC9C1B44251396BC00E6AF9D /* AlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D4797628A524F4154567F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project_TransferWise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A8FE8CB1BB9BB96F55B7FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_TransferWise/Pods-Project_TransferWise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project_TransferWise/Pods-Project_TransferWise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project_TransferWise/Pods-Project_TransferWise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9DE3AD24B84EBB00E6A8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60661724D5C979009BFF4D /* UIColorExtension.swift in Sources */,
+				AC41575924CDC77F001B06B6 /* UIViewExtension.swift in Sources */,
+				AC355B19251CB21600384D35 /* BusinessAccountViewController.swift in Sources */,
+				AC41575B24CDC94B001B06B6 /* UIButtonExtension.swift in Sources */,
+				ACF7FE4924D76063007B9A0E /* SettingsViewController.swift in Sources */,
+				ACBA327424E6F41900D7CD7C /* InviteFriendViewController.swift in Sources */,
+				AC608CA424F39C6400BD51E9 /* CustomTextField.swift in Sources */,
+				AC6A938324C4DBCE005347C7 /* InviteViewController.swift in Sources */,
+				AC9C1B43251396BC00E6AF9D /* AlertViewController.swift in Sources */,
+				AC41576424CDE681001B06B6 /* SendScreenViewController.swift in Sources */,
+				ACBA327F24E99DD800D7CD7C /* CountryCell.swift in Sources */,
+				AC1B7F0024B9C19800826349 /* LogInViewController.swift in Sources */,
+				ACF7FE4D24D76071007B9A0E /* HelpViewController.swift in Sources */,
+				ACBA327924E9646A00D7CD7C /* CountryViewController.swift in Sources */,
+				AC735CD224E5A69A00BBCF04 /* AddRecipientViewController.swift in Sources */,
+				AC9DE3B924B84EBB00E6A8A4 /* MainScreenViewController.swift in Sources */,
+				AC7A956B24F6C1A9002A4E75 /* TransferWiseImage.swift in Sources */,
+				AC9DE3D624B9AF1500E6A8A4 /* TitleCell.swift in Sources */,
+				AC355B11251CAB1F00384D35 /* LoadSiteViewController.swift in Sources */,
+				AC6A937F24C4C5DF005347C7 /* HomeViewController.swift in Sources */,
+				AC08190F251A3DB30034CE52 /* BusinessViewController.swift in Sources */,
+				AC9C1B3E251369F500E6AF9D /* AboutUserViewController.swift in Sources */,
+				ACBA328724EEBACE00D7CD7C /* FetchCurrency.swift in Sources */,
+				AC41578924D340A2001B06B6 /* SetUpBalanceViewController.swift in Sources */,
+				ACBA328524EEBA7000D7CD7C /* CurrencyRate.swift in Sources */,
+				AC2F77CB24D5B87E00119F48 /* RecipientViewController.swift in Sources */,
+				AC9DE3B524B84EBB00E6A8A4 /* AppDelegate.swift in Sources */,
+				AC2F77C724D5B7C200119F48 /* AccountViewController.swift in Sources */,
+				AC6A937924C4C2F0005347C7 /* MainTabViewController.swift in Sources */,
+				ACDA488F24BA19DB00A8773E /* MoneyTexts.swift in Sources */,
+				ACB1D5F12504C07A003C0AEF /* CountryModel.swift in Sources */,
+				AC608CA124F2561D00BD51E9 /* RegisterViewController.swift in Sources */,
+				AC608C7524EF9C0400BD51E9 /* PersonalAccountView.swift in Sources */,
+				AC60661A24D6E448009BFF4D /* UIVIewControllerExtension.swift in Sources */,
+				AC41575E24CDD061001B06B6 /* Constants.swift in Sources */,
+				AC140DD424D72AD300EC0E86 /* AccountSettingView.swift in Sources */,
+				ACBAAC59251E497F001813B1 /* MyselfViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9DE3BF24B84EBD00E6A8A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9DE3C024B84EBD00E6A8A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9DE3C324B84EBD00E6A8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC9DE3C424B84EBD00E6A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9DE3C624B84EBD00E6A8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA6584C5C161D2649DC0C38 /* Pods-Project_TransferWise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SSCFK73P;
+				INFOPLIST_FILE = Project_TransferWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.ge.Project-TransferWise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9DE3C724B84EBD00E6A8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711324846D293682CA8BBEFC /* Pods-Project_TransferWise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SSCFK73P;
+				INFOPLIST_FILE = Project_TransferWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.ge.Project-TransferWise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9DE3AC24B84EBB00E6A8A4 /* Build configuration list for PBXProject "Project_TransferWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DE3C324B84EBD00E6A8A4 /* Debug */,
+				AC9DE3C424B84EBD00E6A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9DE3C524B84EBD00E6A8A4 /* Build configuration list for PBXNativeTarget "Project_TransferWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9DE3C624B84EBD00E6A8A4 /* Debug */,
+				AC9DE3C724B84EBD00E6A8A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9DE3A924B84EBB00E6A8A4 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>799090247923-in9uu9juiapae1jv6f4atqbmmmbjfhvn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.799090247923-in9uu9juiapae1jv6f4atqbmmmbjfhvn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAN64ZVKsiTf9y-RkLZy8lLQ14_mGKu954</string>
+	<key>GCM_SENDER_ID</key>
+	<string>799090247923</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>space.ge.Project-TransferWise</string>
+	<key>PROJECT_ID</key>
+	<string>transferwise-8c99f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>transferwise-8c99f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:799090247923:ios:3dc168d9d2d5575d8b4f86</string>
+	<key>DATABASE_URL</key>
+	<string>https://transferwise-8c99f.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_Project_TransferWise {
+  umbrella header "Pods-Project_TransferWise-umbrella.h"
+
+  export *
+  module * { export * }
+}

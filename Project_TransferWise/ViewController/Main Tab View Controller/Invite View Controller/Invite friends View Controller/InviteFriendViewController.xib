@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InviteFriendViewController" customModule="Project_TransferWise" customModuleProvider="target">
+            <connections>
+                <outlet property="copyLinkButton" destination="VLT-UH-uFk" id="i63-jd-3ky"/>
+                <outlet property="inviteViaEmailButton" destination="ISK-K3-rRp" id="BWx-5Z-Jm5"/>
+                <outlet property="inviteViaSMSButton" destination="gwb-8V-E4t" id="OAj-FT-DBG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISK-K3-rRp" userLabel="Invite Via Email Button">
+                    <rect key="frame" x="20" y="449" width="374" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="Svp-Vp-0ss"/>
+                    </constraints>
+                    <state key="normal" title="Share link">
+                        <color key="titleColor" red="0.0" green="0.72549019607843135" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="shareLink:" destination="-1" eventType="touchUpInside" id="Gxz-K0-nkI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwb-8V-E4t" userLabel="Invite Via Sms Button">
+                    <rect key="frame" x="20" y="510" width="374" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="Fan-mz-I40"/>
+                    </constraints>
+                    <state key="normal" title="Invite via SMS">
+                        <color key="titleColor" red="0.0" green="0.72549019607843135" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sendMessage:" destination="-1" eventType="touchUpInside" id="ygm-fx-jGp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLT-UH-uFk" userLabel="Copy Link Button">
+                    <rect key="frame" x="20" y="571" width="374" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="G0l-16-i3c"/>
+                    </constraints>
+                    <state key="normal" title="Copy my invite link">
+                        <color key="titleColor" red="0.0" green="0.72549019607843135" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="copyLink" destination="-1" eventType="touchUpInside" id="U8q-J3-Oh2"/>
+                        <action selector="copyText" destination="-1" eventType="touchUpInside" id="3Nl-Dk-7zP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tr-Wy-nFC">
+                    <rect key="frame" x="20" y="363.33333333333331" width="374" height="45.666666666666686"/>
+                    <attributedString key="attributedText">
+                        <fragment content="When 3 friends start using TransferWise, you'll get">
+                            <attributes>
+                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" metaFont="system" size="17"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" paragraphSpacing="2" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="17"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" paragraphSpacing="2" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="£50">
+                            <attributes>
+                                <color key="NSColor" red="0.26666666666666666" green="0.93333333333333335" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" metaFont="system" size="17"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" paragraphSpacing="2" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=".">
+                            <attributes>
+                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" metaFont="system" size="17"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" paragraphSpacing="2" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="evro" translatesAutoresizingMaskIntoConstraints="NO" id="F44-Tz-dOl">
+                    <rect key="frame" x="145" y="253.66666666666666" width="124" height="73.666666666666657"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invite your friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUY-zK-cXz">
+                    <rect key="frame" x="121" y="188.33333333333334" width="172" height="25.333333333333343"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vk9-xj-ANc">
+                    <rect key="frame" x="20" y="15" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="BEA-dO-5GO"/>
+                        <constraint firstAttribute="width" constant="20" id="j3x-Wl-9Gl"/>
+                    </constraints>
+                    <state key="normal" image="close_white"/>
+                    <connections>
+                        <action selector="close" destination="-1" eventType="touchUpInside" id="3Yt-p2-xAo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.21568627450980393" green="0.31764705882352939" blue="0.49411764705882355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="F44-Tz-dOl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.3" id="0h3-4K-8oD"/>
+                <constraint firstItem="VLT-UH-uFk" firstAttribute="top" secondItem="gwb-8V-E4t" secondAttribute="bottom" constant="14" id="1U6-g7-goK"/>
+                <constraint firstItem="ISK-K3-rRp" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="2cw-PF-gEf"/>
+                <constraint firstItem="3tr-Wy-nFC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3ut-ai-PKG"/>
+                <constraint firstItem="gwb-8V-E4t" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="7FM-um-cDf"/>
+                <constraint firstItem="3tr-Wy-nFC" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="20" id="7bB-ci-ndv"/>
+                <constraint firstItem="Vk9-xj-ANc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="93r-tz-Xk1"/>
+                <constraint firstItem="VLT-UH-uFk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="C0E-Mu-DB4"/>
+                <constraint firstItem="Vk9-xj-ANc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Eau-s3-d6r"/>
+                <constraint firstItem="F44-Tz-dOl" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.1" id="N8J-mj-9YG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VLT-UH-uFk" secondAttribute="trailing" constant="20" id="SxU-bm-adT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VLT-UH-uFk" secondAttribute="bottom" constant="118" id="Sxj-Ta-NAb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gwb-8V-E4t" secondAttribute="trailing" constant="20" id="Tv2-JV-Of7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ISK-K3-rRp" secondAttribute="trailing" constant="20" id="efB-3e-yxL"/>
+                <constraint firstItem="F44-Tz-dOl" firstAttribute="top" secondItem="NUY-zK-cXz" secondAttribute="bottom" constant="40" id="fBj-Lc-a4J"/>
+                <constraint firstItem="VLT-UH-uFk" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="iK8-Bd-ycj"/>
+                <constraint firstItem="F44-Tz-dOl" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="oyO-ZH-Cmu"/>
+                <constraint firstItem="3tr-Wy-nFC" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="rqP-7d-hkl"/>
+                <constraint firstItem="ISK-K3-rRp" firstAttribute="top" secondItem="3tr-Wy-nFC" secondAttribute="bottom" constant="40" id="udM-Pk-trT"/>
+                <constraint firstItem="3tr-Wy-nFC" firstAttribute="top" secondItem="F44-Tz-dOl" secondAttribute="bottom" constant="36" id="wFA-BL-Jm0"/>
+                <constraint firstItem="gwb-8V-E4t" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="wTj-Nc-yLO"/>
+                <constraint firstItem="gwb-8V-E4t" firstAttribute="top" secondItem="ISK-K3-rRp" secondAttribute="bottom" constant="14" id="y1t-x5-LC8"/>
+                <constraint firstItem="ISK-K3-rRp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="zCP-xc-bAc"/>
+                <constraint firstItem="NUY-zK-cXz" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="zQE-jh-IQJ"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="142.66304347826087"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_white" width="29" height="29"/>
+        <image name="evro" width="60" height="60"/>
+    </resources>
+</document>
