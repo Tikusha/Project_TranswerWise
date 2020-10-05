@@ -56,6 +56,7 @@
 		AC9DE3C924B850B200E6A8A4 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3C824B850B200E6A8A4 /* MainScreen.xib */; };
 		AC9DE3D624B9AF1500E6A8A4 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DE3D424B9AF1500E6A8A4 /* TitleCell.swift */; };
 		AC9DE3D724B9AF1500E6A8A4 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9DE3D524B9AF1500E6A8A4 /* TitleCell.xib */; };
+		ACAD3606252231AC00507238 /* Price Compare View Controller in Resources */ = {isa = PBXBuildFile; fileRef = ACAD3605252231AC00507238 /* Price Compare View Controller */; };
 		ACB1D5F12504C07A003C0AEF /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1D5F02504C07A003C0AEF /* CountryModel.swift */; };
 		ACBA327424E6F41900D7CD7C /* InviteFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA327224E6F41900D7CD7C /* InviteFriendViewController.swift */; };
 		ACBA327524E6F41900D7CD7C /* InviteFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBA327324E6F41900D7CD7C /* InviteFriendViewController.xib */; };
@@ -130,6 +131,7 @@
 		AC9DE3C824B850B200E6A8A4 /* MainScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
 		AC9DE3D424B9AF1500E6A8A4 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 		AC9DE3D524B9AF1500E6A8A4 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		ACAD3605252231AC00507238 /* Price Compare View Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Price Compare View Controller"; sourceTree = "<group>"; };
 		ACB1D5F02504C07A003C0AEF /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		ACBA327224E6F41900D7CD7C /* InviteFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendViewController.swift; sourceTree = "<group>"; };
 		ACBA327324E6F41900D7CD7C /* InviteFriendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InviteFriendViewController.xib; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 			children = (
 				AC41576324CDE681001B06B6 /* SendScreenViewController.xib */,
 				AC41576224CDE681001B06B6 /* SendScreenViewController.swift */,
+				ACAD3605252231AC00507238 /* Price Compare View Controller */,
 				AC608C7624F13F4700BD51E9 /* Network */,
 				ACBAAC56251E494A001813B1 /* Myself View Controller */,
 				ACBA327624E9643F00D7CD7C /* Country View Controller */,
@@ -616,6 +619,7 @@
 				AC081910251A3DB30034CE52 /* BusinessViewController.xib in Resources */,
 				AC2F77C824D5B7C200119F48 /* AccountViewController.xib in Resources */,
 				ACBA327A24E9646A00D7CD7C /* CountryViewController.xib in Resources */,
+				ACAD3606252231AC00507238 /* Price Compare View Controller in Resources */,
 				AC608C9E24F24D8F00BD51E9 /* GoogleService-Info.plist in Resources */,
 				AC6A938024C4C5DF005347C7 /* HomeViewController.xib in Resources */,
 				ACF7FE4E24D76071007B9A0E /* HelpViewController.xib in Resources */,
